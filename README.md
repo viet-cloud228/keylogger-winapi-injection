@@ -10,7 +10,7 @@ A technical demonstration **DLL Injection** and **Asynchronous Keylogging** usin
 
 * **Memory management: use 'VirtualAllocEx' and 'WriteProcessMemory' for cross-process memory allocation.
 
-* **Asynchronous Keylogging: the injected DLL spawns a background threat using 'CreateThread' and monitors keystrokes via 'GetAyncKeyState'.
+* **Asynchronous Keylogging: the injected DLL spawns a background thread using 'CreateThread' and monitors keystrokes via 'GetAyncKeyState'.
 
 * **Persistence: disable Windows Update services like 'wuauserv' or 'WaaSMedicSvc' to maintain an undisturbed research environment.
 
