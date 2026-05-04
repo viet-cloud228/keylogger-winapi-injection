@@ -1,0 +1,43 @@
+## --- Visual Studio Internal Files ---
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## --- Build Artifacts & Output ---
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+bin/
+obj/
+
+## --- Compiled Binaries ---
+*.exe
+*.dll
+*.lib
+*.pdb
+*.exp
+*.ilk
+*.idb
+
+## --- Intermediate Build Files ---
+*.tlog
+*.lastbuildstate
+*.recipe
+*.ipch
+
+## --- Database & IntelliSense ---
+*.sdf
+*.opensdf
+*.db
+*.opendb
+*.VC.db
+
+## --- Project Logs & Temp Files ---
+*.log
+content.log
+ghost_observer.log
